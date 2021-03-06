@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="35.746056">
+<testcase classname="Login into the ZFJ Cloud Application" name="Launch website" time="9.856515">
+<system-out><![CDATA[Given User Selects the Browser, Launches it and Maximises it................passed
+When User Navigates to the URL provided.....................................passed
+Then Validate home page.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login into the ZFJ Cloud Application" name="Sign in to website" time="10.187828">
+<system-out><![CDATA[Given User sign in using username and password..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Do online shopping" name="online shopping" time="15.701713">
+<system-out><![CDATA[Given User navigates to women category......................................passed
+When User applies filters...................................................passed
+And User add selected items to cart.........................................passed
+And Proceed to checkout.....................................................passed
+Then User enters shipping details...........................................passed
+And User add incorrect payment details......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
