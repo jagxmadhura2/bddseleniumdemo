@@ -5,12 +5,12 @@
       {
         "name": "User Selects the Browser, Launches it and Maximises it",
         "aggregatedDurations": {
-          "average": 1.844798925,
-          "median": 1.844798925
+          "average": 1.751467348,
+          "median": 1.751467348
         },
         "durations": [
           {
-            "duration": 1.844798925,
+            "duration": 1.751467348,
             "location": "Shopping.feature:5"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "Validate home page",
         "aggregatedDurations": {
-          "average": 0.005895003,
-          "median": 0.005895003
+          "average": 0.004169323,
+          "median": 0.004169323
         },
         "durations": [
           {
-            "duration": 0.005895003,
+            "duration": 0.004169323,
             "location": "Shopping.feature:7"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "User Navigates to the URL provided",
         "aggregatedDurations": {
-          "average": 6.678309473,
-          "median": 6.678309473
+          "average": 10.569643246,
+          "median": 10.569643246
         },
         "durations": [
           {
-            "duration": 6.678309473,
+            "duration": 10.569643246,
             "location": "Shopping.feature:6"
           }
         ]
@@ -59,12 +59,12 @@
       {
         "name": "User enters shipping details",
         "aggregatedDurations": {
-          "average": 36.785622597,
-          "median": 36.785622597
+          "average": 26.848658159,
+          "median": 26.848658159
         },
         "durations": [
           {
-            "duration": 36.785622597,
+            "duration": 26.848658159,
             "location": "Shopping.feature:16"
           }
         ]
@@ -77,12 +77,12 @@
       {
         "name": "User add incorrect payment details",
         "aggregatedDurations": {
-          "average": 7.999992006,
-          "median": 7.999992006
+          "average": 13.120573096,
+          "median": 13.120573096
         },
         "durations": [
           {
-            "duration": 7.999992006,
+            "duration": 13.120573096,
             "location": "Shopping.feature:17"
           }
         ]
@@ -95,12 +95,12 @@
       {
         "name": "User navigates to women category",
         "aggregatedDurations": {
-          "average": 6.275443319,
-          "median": 6.275443319
+          "average": 6.702812439,
+          "median": 6.702812439
         },
         "durations": [
           {
-            "duration": 6.275443319,
+            "duration": 6.702812439,
             "location": "Shopping.feature:12"
           }
         ]
@@ -113,12 +113,12 @@
       {
         "name": "User add selected items to cart",
         "aggregatedDurations": {
-          "average": 24.99150579,
-          "median": 24.99150579
+          "average": 10.428223678,
+          "median": 10.428223678
         },
         "durations": [
           {
-            "duration": 24.99150579,
+            "duration": 10.428223678,
             "location": "Shopping.feature:14"
           }
         ]
@@ -131,12 +131,12 @@
       {
         "name": "Proceed to checkout",
         "aggregatedDurations": {
-          "average": 3.182532242,
-          "median": 3.182532242
+          "average": 5.555380165,
+          "median": 5.555380165
         },
         "durations": [
           {
-            "duration": 3.182532242,
+            "duration": 5.555380165,
             "location": "Shopping.feature:15"
           }
         ]
@@ -149,12 +149,12 @@
       {
         "name": "User sign in using username and password",
         "aggregatedDurations": {
-          "average": 12.163960464,
-          "median": 12.163960464
+          "average": 12.985865844,
+          "median": 12.985865844
         },
         "durations": [
           {
-            "duration": 12.163960464,
+            "duration": 12.985865844,
             "location": "Shopping.feature:8"
           }
         ]
@@ -167,12 +167,12 @@
       {
         "name": "User applies filters",
         "aggregatedDurations": {
-          "average": 8.739414549,
-          "median": 8.739414549
+          "average": 4.200548053,
+          "median": 4.200548053
         },
         "durations": [
           {
-            "duration": 8.739414549,
+            "duration": 4.200548053,
             "location": "Shopping.feature:13"
           }
         ]

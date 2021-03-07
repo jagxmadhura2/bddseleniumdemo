@@ -15,9 +15,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 //tags={"@Create"},
 tags = { "@Shopping" },
 glue = { "com.demo.selenium.stepdefinitions" }, plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/extent/ExtentReport.html",
-		"html:target/cucumber-html-report", "junit:target/cucumber_batch1.xml",
+		"html:target/cucumber-html-report", "junit:target/cucumber-z4j-integration.xml",
 		"pretty:target/cucumber-pretty.txt", "rerun:target/rerun.txt",
-		"usage:target/cucumber-usage.json", "json:target/cucumber25.json" }, monochrome = false)
+		"usage:target/cucumber-usage.json", "json:target/cucumber-z4j-integration.json" }, monochrome = false)
 public class testrunner extends AbstractTestNGCucumberTests {
 
 	

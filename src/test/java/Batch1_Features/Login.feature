@@ -1,5 +1,5 @@
 @Login
-Feature: Login into the ZFJ Cloud Application
+Feature: Login into the Demo automation Application
 
 @Login
 Scenario: Launch website
