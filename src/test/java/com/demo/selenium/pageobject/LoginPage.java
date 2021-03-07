@@ -120,6 +120,7 @@ public class LoginPage {
 	public boolean signin(String name, String passWord) throws Exception {
 		try {
 			bp = new CommonUtils();
+			bp.explicitWait(signin);
 			signin.click();
 			bp.explicitWait(username);
 			username.sendKeys(name);

@@ -68,6 +68,8 @@ public class Shopping extends LaunchBrowser{
     	try {
 			sp = new ShoppingPage(driver);
 			sp.selectproductitem();
+			sp.slectcolorandsize();
+			
 		}
 
 		catch (Exception e) {
@@ -80,17 +82,47 @@ public class Shopping extends LaunchBrowser{
     	
     }
     
+    
+    @And("^Proceed to checkout$")
+    public void proceed_to_checkout() throws Throwable {
+        
+    	try {
+			sp = new ShoppingPage(driver);
+			sp.proceedtocheckout();
+		}
+
+		catch (Exception e) {
+			lb.getScreenShot(fileName);
+			e.printStackTrace();
+
+			driver.close();
+			throw e;
+		}
+    }
+    
     @Then("^User enters shipping details$")
-    public void user_enters_shipping_details()  {
+    public void user_enters_shipping_details() throws Throwable {
        
+    	 
+    	try {
+			sp = new ShoppingPage(driver);
+			sp.navigatetoshippingdetails();
+		}
+
+		catch (Exception e) {
+			lb.getScreenShot(fileName);
+			e.printStackTrace();
+
+			driver.close();
+			throw e;
+		}
+    	
+    	
     }
 
     
 
-    @And("^Proceed to checkout$")
-    public void proceed_to_checkout() throws Throwable {
-        
-    }
+   
 
     @And("^User add incorrect payment details$")
     public void user_add_incorrect_payment_details() {
