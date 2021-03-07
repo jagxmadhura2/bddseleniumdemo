@@ -122,11 +122,24 @@ public class Shopping extends LaunchBrowser{
 
     
 
-   
+
 
     @And("^User add incorrect payment details$")
-    public void user_add_incorrect_payment_details() {
-        ;
+    public void user_add_incorrect_payment_details() throws Throwable{
+        
+    	try {
+			sp = new ShoppingPage(driver);
+			sp.paymentsection();
+		}
+
+		catch (Exception e) {
+			lb.getScreenShot(fileName);
+			e.printStackTrace();
+
+			driver.close();
+			throw e;
+		}
+    	
     }
 
 	

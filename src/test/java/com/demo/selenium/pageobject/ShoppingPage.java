@@ -82,6 +82,14 @@ public class ShoppingPage {
 	@FindBy(xpath = "(//*[@id='cgv'])")
 	protected WebElement agreeterms;
 	
+	@FindBy(xpath = "(//a[@class='cheque'])")
+	protected WebElement paybycheque;
+	
+	@FindBy(xpath = "(//span[text()='I confirm my order'])")
+	protected WebElement confirmorderbutton;
+	
+	@FindBy(xpath = "(//p[@class='alert alert-success'])")
+	protected WebElement readerrormessage;
 	
 	
 	/*******************************
@@ -280,6 +288,40 @@ public class ShoppingPage {
 			actions.moveToElement(proceedtocheckoutshippingpage).pause(500).click().pause(500).build().perform();
 			
 			log.info("user clicked on procced to checkout in shipping page and navigated to payment page");
+			
+		return true;
+	} catch (Exception e) {
+		e.printStackTrace();
+		throw e;
+	}
+		
+	}
+
+
+
+	public boolean paymentsection() throws Exception {
+		try {
+			
+		Actions actions = new Actions(driver);
+			actions.moveToElement(paybycheque).pause(500).click().pause(500).build().perform();
+	
+	
+			//actions.moveToElement(confirmorderbutton).pause(100).click();
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].click();", confirmorderbutton);
+			
+			log.info("order placed");
+			
+		//	Assert.assertEquals("Your order on My Store is complete.", readerrormessage.getText());
+			
+			Object actual = readerrormessage.getText();
+			String actualtext = actual.toString();
+			
+			if(actualtext.contentEquals("Your order on My Store is complete."))
+			{
+				System.out.println("order message validated successfully");
+			}
+			
 			
 		return true;
 	} catch (Exception e) {

@@ -45,21 +45,21 @@ formatter.match({
   "location": "Login.user_Selects_the_Browser_Launches_it_and_Maximises_it()"
 });
 formatter.result({
-  "duration": 1791038005,
+  "duration": 1997552172,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_Navigates_to_the_URL_provided()"
 });
 formatter.result({
-  "duration": 6990297032,
+  "duration": 7635762963,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.validate_home_page()"
 });
 formatter.result({
-  "duration": 3884083,
+  "duration": 6392676,
   "status": "passed"
 });
 formatter.scenario({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "Login.user_sgin_in_using_username_and_password()"
 });
 formatter.result({
-  "duration": 12508838423,
+  "duration": 11937366026,
   "status": "passed"
 });
 formatter.uri("Shopping.feature");
@@ -150,42 +150,42 @@ formatter.match({
   "location": "Shopping.user_navigates_to_women_category()"
 });
 formatter.result({
-  "duration": 6828535972,
+  "duration": 16180070583,
   "status": "passed"
 });
 formatter.match({
   "location": "Shopping.user_applies_filters()"
 });
 formatter.result({
-  "duration": 3661987307,
+  "duration": 3677543929,
   "status": "passed"
 });
 formatter.match({
   "location": "Shopping.user_add_selected_items_to_cart()"
 });
 formatter.result({
-  "duration": 11723445487,
+  "duration": 7281625478,
   "status": "passed"
 });
 formatter.match({
   "location": "Shopping.proceed_to_checkout()"
 });
 formatter.result({
-  "duration": 4465472174,
+  "duration": 3050222576,
   "status": "passed"
 });
 formatter.match({
   "location": "Shopping.user_enters_shipping_details()"
 });
 formatter.result({
-  "duration": 17456150390,
+  "duration": 14684702614,
   "status": "passed"
 });
 formatter.match({
   "location": "Shopping.user_add_incorrect_payment_details()"
 });
 formatter.result({
-  "duration": 18931,
+  "duration": 10688088779,
   "status": "passed"
 });
 });
