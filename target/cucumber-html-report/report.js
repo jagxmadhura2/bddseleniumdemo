@@ -1,94 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Login into the ZFJ Cloud Application",
-  "description": "",
-  "id": "login-into-the-zfj-cloud-application",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@Login"
-    }
-  ]
-});
-formatter.scenario({
-  "line": 5,
-  "name": "Launch website",
-  "description": "",
-  "id": "login-into-the-zfj-cloud-application;launch-website",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 4,
-      "name": "@Login"
-    }
-  ]
-});
-formatter.step({
-  "line": 6,
-  "name": "User Selects the Browser, Launches it and Maximises it",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "User Navigates to the URL provided",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "Validate home page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Login.user_Selects_the_Browser_Launches_it_and_Maximises_it()"
-});
-formatter.result({
-  "duration": 1997552172,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Login.user_Navigates_to_the_URL_provided()"
-});
-formatter.result({
-  "duration": 7635762963,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Login.validate_home_page()"
-});
-formatter.result({
-  "duration": 6392676,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "Sign in to website",
-  "description": "",
-  "id": "login-into-the-zfj-cloud-application;sign-in-to-website",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 10,
-      "name": "@Login"
-    }
-  ]
-});
-formatter.step({
-  "line": 12,
-  "name": "User sign in using username and password",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.user_sgin_in_using_username_and_password()"
-});
-formatter.result({
-  "duration": 11937366026,
-  "status": "passed"
-});
-formatter.uri("Shopping.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Shopping.feature");
 formatter.feature({
   "line": 2,
   "name": "Do online shopping",
@@ -102,8 +12,63 @@ formatter.feature({
     }
   ]
 });
-formatter.scenario({
+formatter.background({
+  "line": 4,
+  "name": "User is Logged In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
   "line": 5,
+  "name": "User Selects the Browser, Launches it and Maximises it",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User Navigates to the URL provided",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "Validate home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "User sign in using username and password",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.user_Selects_the_Browser_Launches_it_and_Maximises_it()"
+});
+formatter.result({
+  "duration": 1844798925,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Login.user_Navigates_to_the_URL_provided()"
+});
+formatter.result({
+  "duration": 6678309473,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Login.validate_home_page()"
+});
+formatter.result({
+  "duration": 5895003,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Login.user_sgin_in_using_username_and_password()"
+});
+formatter.result({
+  "duration": 12163960464,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 11,
   "name": "online shopping",
   "description": "",
   "id": "do-online-shopping;online-shopping",
@@ -111,38 +76,38 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 4,
+      "line": 10,
       "name": "@Shopping"
     }
   ]
 });
 formatter.step({
-  "line": 6,
+  "line": 12,
   "name": "User navigates to women category",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 13,
   "name": "User applies filters",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 14,
   "name": "User add selected items to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 15,
   "name": "Proceed to checkout",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 16,
   "name": "User enters shipping details",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 11,
+  "line": 17,
   "name": "User add incorrect payment details",
   "keyword": "And "
 });
@@ -150,42 +115,16 @@ formatter.match({
   "location": "Shopping.user_navigates_to_women_category()"
 });
 formatter.result({
-  "duration": 16180070583,
+  "duration": 6275443319,
   "status": "passed"
 });
 formatter.match({
   "location": "Shopping.user_applies_filters()"
 });
 formatter.result({
-  "duration": 3677543929,
+  "duration": 8739414549,
   "status": "passed"
 });
 formatter.match({
   "location": "Shopping.user_add_selected_items_to_cart()"
-});
-formatter.result({
-  "duration": 7281625478,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Shopping.proceed_to_checkout()"
-});
-formatter.result({
-  "duration": 3050222576,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Shopping.user_enters_shipping_details()"
-});
-formatter.result({
-  "duration": 14684702614,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Shopping.user_add_incorrect_payment_details()"
-});
-formatter.result({
-  "duration": 10688088779,
-  "status": "passed"
-});
 });

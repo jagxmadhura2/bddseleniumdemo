@@ -13,7 +13,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/test/java/Batch1_Features" },
 //tags={"@Create"},
-tags = { "@Login, @Shopping" },
+tags = { "@Shopping" },
 glue = { "com.demo.selenium.stepdefinitions" }, plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/extent/ExtentReport.html",
 		"html:target/cucumber-html-report", "junit:target/cucumber_batch1.xml",
 		"pretty:target/cucumber-pretty.txt", "rerun:target/rerun.txt",

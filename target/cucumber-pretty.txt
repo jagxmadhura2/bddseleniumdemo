@@ -1,23 +1,8 @@
-@Login
-Feature: Login into the ZFJ Cloud Application
-
-  @Login
-  Scenario: Launch website                                       [90m# Login.feature:5[0m
-    [32mGiven [0m[32mUser Selects the Browser, Launches it and Maximises it[0m [90m# Login.user_Selects_the_Browser_Launches_it_and_Maximises_it()[0m
-    [32mWhen [0m[32mUser Navigates to the URL provided[0m                      [90m# Login.user_Navigates_to_the_URL_provided()[0m
-    [32mThen [0m[32mValidate home page[0m                                      [90m# Login.validate_home_page()[0m
-
-  @Login
-  Scenario: Sign in to website                     [90m# Login.feature:11[0m
-    [32mGiven [0m[32mUser sign in using username and password[0m [90m# Login.user_sgin_in_using_username_and_password()[0m
 @Shopping
 Feature: Do online shopping
 
-  @Shopping
-  Scenario: online shopping                [90m# Shopping.feature:5[0m
-    [32mGiven [0m[32mUser navigates to women category[0m [90m# Shopping.user_navigates_to_women_category()[0m
-    [32mWhen [0m[32mUser applies filters[0m              [90m# Shopping.user_applies_filters()[0m
-    [32mAnd [0m[32mUser add selected items to cart[0m    [90m# Shopping.user_add_selected_items_to_cart()[0m
-    [32mAnd [0m[32mProceed to checkout[0m                [90m# Shopping.proceed_to_checkout()[0m
-    [32mThen [0m[32mUser enters shipping details[0m      [90m# Shopping.user_enters_shipping_details()[0m
-    [32mAnd [0m[32mUser add incorrect payment details[0m [90m# Shopping.user_add_incorrect_payment_details()[0m
+  Background: User is Logged In                                  [90m# Shopping.feature:4[0m
+    [32mGiven [0m[32mUser Selects the Browser, Launches it and Maximises it[0m [90m# Login.user_Selects_the_Browser_Launches_it_and_Maximises_it()[0m
+    [32mWhen [0m[32mUser Navigates to the URL provided[0m                      [90m# Login.user_Navigates_to_the_URL_provided()[0m
+    [32mThen [0m[32mValidate home page[0m                                      [90m# Login.validate_home_page()[0m
+    [32mGiven [0m[32mUser sign in using username and password[0m               [90m# Login.user_sgin_in_using_username_and_password()[0m
