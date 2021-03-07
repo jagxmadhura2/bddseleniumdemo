@@ -6,3 +6,12 @@ Feature: Do online shopping
     [32mWhen [0m[32mUser Navigates to the URL provided[0m                      [90m# Login.user_Navigates_to_the_URL_provided()[0m
     [32mThen [0m[32mValidate home page[0m                                      [90m# Login.validate_home_page()[0m
     [32mGiven [0m[32mUser sign in using username and password[0m               [90m# Login.user_sgin_in_using_username_and_password()[0m
+
+  @Shopping
+  Scenario: online shopping                [90m# Shopping.feature:11[0m
+    [32mGiven [0m[32mUser navigates to women category[0m [90m# Shopping.user_navigates_to_women_category()[0m
+    [32mWhen [0m[32mUser applies filters[0m              [90m# Shopping.user_applies_filters()[0m
+    [32mAnd [0m[32mUser add selected items to cart[0m    [90m# Shopping.user_add_selected_items_to_cart()[0m
+    [32mAnd [0m[32mProceed to checkout[0m                [90m# Shopping.proceed_to_checkout()[0m
+    [32mThen [0m[32mUser enters shipping details[0m      [90m# Shopping.user_enters_shipping_details()[0m
+    [32mAnd [0m[32mUser add incorrect payment details[0m [90m# Shopping.user_add_incorrect_payment_details()[0m

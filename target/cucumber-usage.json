@@ -1,0 +1,182 @@
+[
+  {
+    "source": "^User Selects the Browser, Launches it and Maximises it$",
+    "steps": [
+      {
+        "name": "User Selects the Browser, Launches it and Maximises it",
+        "aggregatedDurations": {
+          "average": 1.844798925,
+          "median": 1.844798925
+        },
+        "durations": [
+          {
+            "duration": 1.844798925,
+            "location": "Shopping.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Validate home page$",
+    "steps": [
+      {
+        "name": "Validate home page",
+        "aggregatedDurations": {
+          "average": 0.005895003,
+          "median": 0.005895003
+        },
+        "durations": [
+          {
+            "duration": 0.005895003,
+            "location": "Shopping.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Navigates to the URL provided$",
+    "steps": [
+      {
+        "name": "User Navigates to the URL provided",
+        "aggregatedDurations": {
+          "average": 6.678309473,
+          "median": 6.678309473
+        },
+        "durations": [
+          {
+            "duration": 6.678309473,
+            "location": "Shopping.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters shipping details$",
+    "steps": [
+      {
+        "name": "User enters shipping details",
+        "aggregatedDurations": {
+          "average": 36.785622597,
+          "median": 36.785622597
+        },
+        "durations": [
+          {
+            "duration": 36.785622597,
+            "location": "Shopping.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User add incorrect payment details$",
+    "steps": [
+      {
+        "name": "User add incorrect payment details",
+        "aggregatedDurations": {
+          "average": 7.999992006,
+          "median": 7.999992006
+        },
+        "durations": [
+          {
+            "duration": 7.999992006,
+            "location": "Shopping.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User navigates to women category$",
+    "steps": [
+      {
+        "name": "User navigates to women category",
+        "aggregatedDurations": {
+          "average": 6.275443319,
+          "median": 6.275443319
+        },
+        "durations": [
+          {
+            "duration": 6.275443319,
+            "location": "Shopping.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User add selected items to cart$",
+    "steps": [
+      {
+        "name": "User add selected items to cart",
+        "aggregatedDurations": {
+          "average": 24.99150579,
+          "median": 24.99150579
+        },
+        "durations": [
+          {
+            "duration": 24.99150579,
+            "location": "Shopping.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Proceed to checkout$",
+    "steps": [
+      {
+        "name": "Proceed to checkout",
+        "aggregatedDurations": {
+          "average": 3.182532242,
+          "median": 3.182532242
+        },
+        "durations": [
+          {
+            "duration": 3.182532242,
+            "location": "Shopping.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User sign in using username and password$",
+    "steps": [
+      {
+        "name": "User sign in using username and password",
+        "aggregatedDurations": {
+          "average": 12.163960464,
+          "median": 12.163960464
+        },
+        "durations": [
+          {
+            "duration": 12.163960464,
+            "location": "Shopping.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User applies filters$",
+    "steps": [
+      {
+        "name": "User applies filters",
+        "aggregatedDurations": {
+          "average": 8.739414549,
+          "median": 8.739414549
+        },
+        "durations": [
+          {
+            "duration": 8.739414549,
+            "location": "Shopping.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

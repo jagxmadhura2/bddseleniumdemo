@@ -128,3 +128,29 @@ formatter.result({
 formatter.match({
   "location": "Shopping.user_add_selected_items_to_cart()"
 });
+formatter.result({
+  "duration": 24991505790,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Shopping.proceed_to_checkout()"
+});
+formatter.result({
+  "duration": 3182532242,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Shopping.user_enters_shipping_details()"
+});
+formatter.result({
+  "duration": 36785622597,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Shopping.user_add_incorrect_payment_details()"
+});
+formatter.result({
+  "duration": 7999992006,
+  "status": "passed"
+});
+});
